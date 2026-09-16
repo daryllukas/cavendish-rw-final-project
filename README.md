@@ -19,7 +19,7 @@
 
 ## Features
 
-- [ ] Add a job application (company, position, date, URL, status)
+- [x] Add a job application (company, position, date, URL, status)
 - [ ] View all applications
 - [ ] Update an application's status
 - [ ] Delete an application
