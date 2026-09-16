@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #1f2933;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+#red-heading {
+  color: red;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0e4e8;
+  border-radius: 10px;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+#application-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+#application-form input,
+#application-form select,
+#search-input {
+  padding: 0.5rem;
+  border: 1px solid #e0e4e8;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#application-form button {
+  background-color: #2f6feb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.application-item {
+  border: 1px solid #e0e4e8;
+  border-radius: 8px;
+  padding: 0.6rem 0.8rem;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.application-item select,
+.application-item button {
+  padding: 0.3rem 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #e0e4e8;
+  cursor: pointer;
+}
